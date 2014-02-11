@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+	<title>Learning Simmons</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container" id="main">
+
+<div id="modules">
+<div id="instruction-modules">
+
+	<!-- question 1 -->
+	<div id="m1" class="instruction-module">
+		<p class="intro">The purpose of this tutorial is to help you learn to interpret the data tables returned by Simmons OneView. There are three questions all based on a single Simmons result table relating diet cola consumption to age group.</p>
+		<hr />
+		<p>Look at the chart. Answer the following questions to test your knowledge of Simmons OneView.</p>
+		<p>How many people questioned responded that they drank Diet Coke?</p>
+		<form class="form" method="post">
+			<label class="radio">
+				<input type="radio" name="q1" value="40,723" class="wrong_a">
+				40,723
+			</label>
+			<label class="radio">
+				<input type="radio" name="q1" value="40,723,000" class="wrong_b">
+				40,723,000
+			</label>
+			<label class="radio">
+				<input type="radio" name="q1" value="2,362" class="right">
+				2,362
+			</label>
+		</form>
+		<div class="right response"><span class="answerFirst">2,362 is the correct answer.</span> This is the total number out of the 12,350 who responded to the survey question.</div>
+		<div class="wrong_a response"><span class="answerFirst">Incorrect.</span> 40,723 is the weighted sample (in 000).</div>
+		<div class="wrong_b response"><span class="answerFirst">Incorrect.</span> 40,723,000 is the total weighted number of people (which is actually a projected number based on the sample size).</div>
+	</div>
+
+	<!-- question 2 -->
+	<div id="m2" class="instruction-module">
+		<p>Look at the Diet Coke drinkers, aged 35-49. What percent of all Diet Coke drinkers do they make up?</p>
+		<form class="form" method="post">
+			<label class="radio">
+				<input type="radio" name="q2" value="27.7%" class="right">
+				27.7%
+			</label>
+			<label class="radio">
+				<input type="radio" name="q2" value="5%" class="wrong_a">
+				5%
+			</label>
+			<label class="radio">
+				<input type="radio" name="q2" value="18.6%" class="wrong_b">
+				18.6%
+			</label>
+		</form>
+		<div class="right response"><span class="answerFirst">Correct.</span> The Diet Coke drinkers aged 35-49 make up 27.7% of all Diet Coke drinkers. You need to look at the <strong>vertical %</strong> because you're looking at the percent <strong>of Diet Coke</strong> drinkers (the vertical axis of the table).<br /><br /> <strong>Horizontal %</strong> is the percentage of row (usually a demographic variable) that responded that they used or partook in a product or activity (usually a column heading). <strong>Read the row first, then the column.</strong></div>
+		<div class="wrong_a response"><span class="answerFirst">Incorrect.</span> 5% is the percentage number that Diet Coke drinkers, aged 35-49 make of the <strong>total sample size</strong>. <pre>626 / 12,350 = 5%</pre><br /> <strong>Horizontal %</strong> is the percentage of row (usually a demographic variable) that responded that they used or partook in a product or activity (usually a column heading). <strong>Read the row first, then the column.</strong></div>
+		<div class="wrong_b response"><span class="answerFirst">Incorrect.</span> 18.6% is the <strong>horizontal %</strong>. This would be the percent of 35-49 year olds who responded that they drank Diet Coke.<br /><br /> <strong>Horizontal %</strong> is the percentage of row (usually a demographic variable) that responded that they used or partook in a product or activity (usually a column heading). <strong>Read the row first, then the column.</strong></div>
+	</div>
+
+	<!-- question 3 -->
+	<div id="m3" class="instruction-module">
+		<p>Look at Index for Diet Pepsi drinkers, aged 35-49. What does the 93 mean?</p>
+		<form class="form" method="post">
+			<label class="radio">
+				<input type="radio" name="q2" value="a" class="wrong_a">
+				93% of all Diet Pepsi drinkers at 35-49 years of age.
+			</label>
+			<label class="radio">
+				<input type="radio" name="q2" value="b" class="wrong_b">
+				93 of the 291 people who responded that they drank Diet Pepsi were aged 35-49
+			</label>
+			<label class="radio">
+				<input type="radio" name="q2" value="c" class="right">
+				They are 7% less likely to drink Diet Pepsi than the population as a whole.
+			</label>
+		</form>
+		<div class="wrong_a response"><span class="answerFirst">Incorrect.</span> 93 means that 35-49 year olds are 7% less likely to drink Diet Pepsi than the population as a whole. <br /><br /><p>An <strong>index of 100</strong> means that the respondent's behavior is the same as the popluation at large. An <strong>index of 105</strong> would mean the respondents are <strong>5% more likely</strong> than the population at large to have a particular behavior. For marketing purposes, one would hope that the chosen group is <strong>more likely, or &gt; 100</strong>.</p></div>
+		<div class="wrong_b response"><span class="answerFirst">Incorrect.</span> 291 is the <strong>sample size</strong> who said that they were Diet Pepsi drinkers and were aged 35-49 (out of a total of 12,350 respondents). This projects out to a total of 6,137(000) of the total projected population of 225,862,000. <br /><br /><p>An <strong>index of 100</strong> means that the respondent's behavior is the same as the popluation at large. An <strong>index of 105</strong> would mean the respondents are <strong>5% more likely</strong> than the population at large to have a particular behavior. For marketing purposes, one would hope that the chosen group is <strong>more likely, or &gt; 100</strong>.</p></div>
+		<div class="right response"><span class="answerFirst">Correct.</span> 100 - 93 = 7% less likely than average to drink Diet Pepsi than the general population. <br /><br /><p>An <strong>index of 100</strong> means that the respondent's behavior is the same as the popluation at large. An <strong>index of 105</strong> would mean the respondents are <strong>5% more likely</strong> than the population at large to have a particular behavior. For marketing purposes, one would hope that the chosen group is <strong>more likely, or &gt; 100</strong>.</p></div>
+	</div>
+
+
+</div><!-- end #instruction-modules -->
+
+<div id="instruction-module-navigation">
+	<div id="back" class="arrow fade">&laquo; Prev</div>
+	<div id="progress-bar">
+		<div id="progress">
+			<div id="pos">&nbsp;</div>
+			<div id="neg"></div>
+		</div>
+		<div id="progress-text"></div>
+	</div>
+	<div id="forward" class="arrow">Next &raquo;</div>
+</div>
+
+</div><!-- end #modules -->
+
+<!-- slider -->
+<div class="my-slider">
+	<ul class="slides">
+
+		<!-- question 1 slides -->
+		<li class="slide initial" id="s1"><img src="images/simmonsOneView_Q1.svg"></li>
+		<li class="slide right" id="s1a"><img src="images/simmonsOneView_Q1c.svg"></li>
+		<li class="slide wrong_a" id="s1b"><img src="images/simmonsOneView_Q1a.svg"></li>
+		<li class="slide wrong_b" id="s1c"><img src="images/simmonsOneView_Q1a.svg"></li>
+
+		<!-- question 2 slides -->
+		<li class="slide initial" id="s2"><img src="images/simmonsOneView_Q1.svg"></li>
+		<li class="slide right" id="s2a"><img src="images/simmonsOneView_Q2a.svg"></li>
+		<li class="slide wrong_a" id="s2b"><img src="images/simmonsOneView_Q2b.svg"></li>
+		<li class="slide wrong_b" id="s2c"><img src="images/simmonsOneView_Q2c.svg"></li>
+
+		<!-- question 3 slides -->
+		<li class="slide initial" id="s3"><img src="images/simmonsOneView_Q1.svg"></li>
+		<li class="slide wrong_a" id="s3a"><img src="images/simmonsOneView_Q3.svg"></li>
+		<li class="slide wrong_b" id="s3b"><img src="images/simmonsOneView_Q3.svg"></li>
+		<li class="slide right" id="s3c"><img src="images/simmonsOneView_Q3.svg"></li>
+
+	</ul>
+</div>
+
+</div><!-- end main -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="db_tut.js"></script>
+</body>

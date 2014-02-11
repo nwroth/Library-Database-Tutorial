@@ -1,0 +1,99 @@
+.hide {
+	display: none;
+}
+#modules {
+	float:left;
+	width: 35%;
+	clear: both;
+	border: 1px solid black;
+}
+#instruction-modules {
+	height: 450px;
+	overflow: auto;
+}
+.instruction-module {
+	padding: 0.5em;
+}
+#instruction-module-navigation {
+	background-color: white;
+	clear: both;
+	width: 100%;
+	border-top: 1px solid #333;
+	text-align: center;
+}
+label.radio {
+	display: block;
+}
+.arrow {
+	display: inline;
+	cursor: pointer;
+	background-color: #3698BF;
+	padding: 0.55em 0.6em;
+	line-height: 2.2em;
+	color: white;
+}
+#back {
+	float:left;
+}
+#forward {
+	float: right;
+}
+#back:active, #forward:active {
+	background-color: white;
+	color: #999;
+	width: auto;
+}
+.fade, fade:active {
+	color: #ccc !important;
+	background-color: silver !important;
+	cursor: auto;
+}
+#progress-bar {
+	display: inline-block;
+	text-align: center;
+	width: 60%;
+}
+#progress-text {
+	color: #666;
+}
+#progress {
+	width: 100%;
+	background-color: silver;
+	margin-top: 0.7em;
+	-moz-box-shadow: inset 0 0 5px #777;
+	-webkit-box-shadow: inset 0 0 5px #777;
+	box-shadow: inset 0 0 5px #777;
+}
+#pos {
+	background-color: #3698BF;
+}
+.intro {
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+.response {
+	background-color: white;
+	border: 1px dotted #3698BF;
+	padding: 1em;
+	margin: auto 0.5em;
+}
+.answerFirst {
+	font-weight: bold;
+}
+.my-slider {
+	width: 60%;
+	float: left;
+	margin: 0 0 9px 25px !important;
+}
+.slides {
+	list-style: none;
+}
+.slide img {
+	min-width: 400px;
+}
+.right > .answerFirst {
+	color: green;
+}
+div[class^='wrong'] > .answerFirst {
+	color: red;
+}
